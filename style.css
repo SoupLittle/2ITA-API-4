@@ -33,7 +33,6 @@ html {
 .avatar {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     width: 100%;
     padding: 0 20px;
 } 
@@ -41,15 +40,19 @@ html {
 .avatar img {
     width: 150px;
     height: 150px;
+    align-items: center;
+    margin: 20px;
 }
 
 .info {
-    text-align: center;
+    text-align: right;
     color: rgb(255, 236, 211);
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     width: 100%;
     padding: 0 20px;
+    margin-bottom: 20px;
+    margin-right: 80px;
 }
 
 #back {
