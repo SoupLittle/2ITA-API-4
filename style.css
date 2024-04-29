@@ -40,8 +40,8 @@ html {
 
 .avatar img {
     width: 200px; /* Increased width */
-    height: 200px; /* Increased height */
-    margin-right: 5px; /* Add margin to the right */
+    height: 170px; /* Increased height */
+    margin-right: 10px; /* Add margin to the right */
     margin-top: 80px;
     margin-left: 5px;
 }
@@ -55,11 +55,8 @@ html {
     font-weight: lighter;
     width: 100%;
     padding: 0 20px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     margin-right: 80px;
 }
 
-#back {
-    display: none;
-}
 
