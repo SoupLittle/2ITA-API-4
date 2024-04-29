@@ -32,17 +32,21 @@ html {
 
 .avatar {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-start; /* Align to the left */
+    align-items: center; /* Center vertically */
     width: 100%;
-    padding: 0 20px;
+    padding: 0 5px; /* Add padding */
 } 
 
 .avatar img {
-    width: 150px;
-    height: 150px;
-    align-items: center;
-    margin: 20px;
+    width: 200px; /* Increased width */
+    height: 200px; /* Increased height */
+    margin-right: 5px; /* Add margin to the right */
+    margin-top: 80px;
+    margin-left: 5px;
 }
+
+
 
 .info {
     text-align: right;
@@ -51,7 +55,7 @@ html {
     font-weight: lighter;
     width: 100%;
     padding: 0 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-right: 80px;
 }
 
